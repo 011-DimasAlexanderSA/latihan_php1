@@ -1,9 +1,9 @@
 <?php
 $nama_siswa = "Dimss";
 $kelas = "XII PPLG 3";
-$nilai_tugas = 95;
-$nilai_uts = 90;
-$nilai_uas = 85;
+$nilai_tugas = 85;
+$nilai_uts = 80;
+$nilai_uas = 2;
 $nilai_akhir = $nilai_tugas * 0.3 + $nilai_uts * 0.3 + $nilai_uas * 0.4;
 
 if($nilai_akhir >= 90){
@@ -21,7 +21,7 @@ if($nilai_akhir >= 90){
 if($nilai_akhir >= 75){
     $status = "LULUS";
 }else{
-    "TIDAK LULUS";
+    $status = "TIDAK LULUS";
 }
 
 ?>
